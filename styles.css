@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body {
+  width: 100vw;
+  height: 100vh;
+}
+#section {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstArt {
+  width: 80%;
+
+  height: 100px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 10px;
+  position: relative;
+  top: -30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myBalance {
+  width: 30%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+}
+.money-balance {
+  font-size: 1.7rem;
+  margin-left: 10px;
+  font-weight: 500;
+}
+svg {
+  margin-right: 10px;
+}
+.secondArt {
+  width: 80%;
+  min-height: 550px;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+}
+h1 {
+  font-size: 1.9rem;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.columnCon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  color: hsl(28, 10%, 53%);
+  height: 250px;
+}
+.mon {
+  position: relative;
+  top: 76px;
+}
+.tue {
+  position: relative;
+  top: 146px;
+}
+
+.wed {
+  position: relative;
+  top: 207px;
+}
+
+.thu {
+  position: relative;
+  top: 130px;
+}
+
+.fri {
+  position: relative;
+  top: 106px;
+}
+
+.sat {
+  position: relative;
+  top: 176px;
+}
+.sun {
+  position: relative;
+  top: 118px;
+}
+
+.cOne {
+  width: 40px;
+  height: 60px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.cOne:hover {
+  background-color: hsl(10, 79%, 80%);
+}
+
+.cTwo {
+  width: 40px;
+  height: 130px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.cTwo:hover {
+  background-color: hsl(10, 79%, 80%);
+}
+
+.cThree {
+  width: 40px;
+  height: 190px;
+  background-color: hsl(186, 34%, 60%);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.cThree:hover {
+  background-color: hsl(186, 50%, 90%);
+}
+.cFour {
+  width: 40px;
+  height: 115px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.cFour:hover {
+  background-color: hsl(10, 79%, 80%);
+}
+
+.cFive {
+  width: 40px;
+  height: 90px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.cFive:hover {
+  background-color: hsl(10, 79%, 80%);
+}
+
+.cSix {
+  width: 40px;
+  height: 160px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.cSix:hover {
+  background-color: hsl(10, 79%, 80%);
+}
+
+.cSeven {
+  width: 40px;
+  height: 100px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.cSeven:hover {
+  background-color: hsl(10, 79%, 80%);
+}
+
+hr {
+  width: 90%;
+  position: relative;
+  top: 70px;
+  margin-left: 25px;
+  background-color: hsl(28, 10%, 53%);
+}
+.totalDiv {
+  position: relative;
+  top: 100px;
+  left: 25px;
+}
+.monthDiv {
+  position: relative;
+  top: 60px;
+  text-align: end;
+  margin-right: 30px;
+}
+.total {
+  font-size: 1.1rem;
+  color: hsl(28, 10%, 53%);
+}
+.totalAmnt {
+  font-size: 1.8rem;
+  margin-top: 7px;
+  font-weight: 700;
+}
+.perc {
+  font-size: 1.1rem;
+  margin-top: 5px;
+  font-weight: 700;
+}
+.from {
+  font-size: 1.1rem;
+  color: hsl(28, 10%, 53%);
+}
+
+@media (min-width: 870px) {
+  .secondArt {
+    width: 40%;
+    min-height: 510px;
+  }
+  .firstArt {
+    width: 40%;
+  }
+}
+.hoverdiv {
+  background-color: hsl(25, 47%, 15%);
+  color: white;
+  padding: 5px;
+  position: relative;
+  top: -60px;
+  left: -10px;
+  width: 50px;
+  visibility: hidden;
+}
